@@ -1,0 +1,43 @@
+
+h1{
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(1, 22, 19);
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+section{
+display: flex;
+flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+    select{
+        margin-top: 20px;
+    }
+}
